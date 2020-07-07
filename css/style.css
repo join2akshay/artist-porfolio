@@ -2,12 +2,12 @@
 html,body{
     padding: 0;
     margin: 0;
-    font-family: "Roboto Mono";
-    background: #0f0f0f;
-    color: #ffff;
+    font-family: "Roboto Mono" !important;
+    background: #0f0f0f !important;
+    color: #ffff !important;
 }
 .whitespace{
-    width: 100px;
+    width: 100%;
     height: 100px;
 
 }
@@ -143,9 +143,13 @@ nav #menu li a:hover{
     z-index: 1;
     top: 0px;
     position: fixed;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
     visibility: hidden;
     opacity: 0;
     transition: all 1s ease-out;
+
 
 }
 #resize #menu{
