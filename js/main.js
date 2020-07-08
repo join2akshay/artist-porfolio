@@ -28,3 +28,5 @@ TweenMax.staggerFrom('#menu li a',1,{
     ease:Expo.easeInOut
 },0.1)
 //navbar animation end
+// wow animation
+new WOW().init();
